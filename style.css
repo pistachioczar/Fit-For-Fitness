@@ -1,0 +1,78 @@
+body{
+    background-color: #FFF8E1;
+}
+
+/*header styling*/
+header {
+    background-color: #FFFFFF;
+    padding: 20px;
+    font-weight: bolder;
+    border: double black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color:  
+    #333333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:  
+    #007BFF;
+    color: white;
+}
+
+
+/*Table Styling*/
+table{
+    margin:40px;
+    width: 90%;
+}
+
+table, th, td
+{
+    border:2px black solid;
+    border-width: 5px;
+    border-radius: 5px;
+    opacity: 0.95;
+    border-collapse: collapse;
+}
+
+th{
+    font-size:larger;
+    background-color: #F2F2F2;
+    color:#333333;
+}
+
+h4, p{
+    margin: 5px
+}
+
+tr{
+    background-color: #FFFFFF;
+}
+
+td{
+    text-align: center;
+}
+
+.class{
+    background-color: #007BFF ;
+}
+
+/*Home Page*/
