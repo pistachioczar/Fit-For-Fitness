@@ -76,3 +76,21 @@ td{
 }
 
 /*Home Page*/
+
+h1, h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+#pictures {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    grid-gap: 10px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: solid;
+}
